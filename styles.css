@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "lemon_milk";
+    src: url(LEMONMILK-Light.otf);
+    
+}
+body{
+    margin: 0;
+    background-image: linear-gradient(180deg,#33afdd, #0E365E);
+}
+hr{
+    border: 5px dotted;
+    border-bottom: 0;
+    width: 10%;
+    color:#c7f2ff;
+    display:none;
+}
+h1{
+    color:#ffffff;
+    font-size: 2rem;
+    font-family: "lemon_milk", sans-serif;
+    margin: 8px auto;
+    text-align: center;
+    position: relative;
+    top: -200px;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color:#ffffff
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color:#c7f2ff
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color:#c7f2ff
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.rem;
+    color:#DEDE6D;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.rem;
+    color: #0E365E;
+    margin: 15 auto;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(40px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: #fff;
+    border-radius: 0px;
+}
+
+a:hover{
+    color: #0E365E;
+}
+
+.logo{
+    width: 200px;
+    position: relative;
+    left: -30px;
+    top:-70px;
+}
+.footer-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin: 0 20 0 20;
+    text-decoration: none;
+    color: #ABA827;
+
+}
+.watch-trailer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #ABA827;
+}
+
+.top-container {
+    width: 100%;
+    height: 1500px;
+    margin: 0;
+    padding-top: 40px;
+}
+.quote{
+    text-align: center;
+    width: 65%;
+margin: 0 auto;
+}
+
+.bg-cloud {
+    width: 100%;
+    position: absolute;
+    left:0%;
+}
+.cloud-2 {
+    width: 40%;
+    position: relative;
+    left: 100px
+
+}
+.castle-img {
+    width: 40%;
+    position: absolute;
+    bottom: -200px;
+    left: 450px;
+}
+.cloud-1 {
+    width: 60%;
+    
+}
+.cloud-3 {
+    width: 40%;
+    position: absolute;
+    top: 600px;
+    left: 500px;
+}
+.cloud-22{
+    width: 20%;
+    position: fixed;
+    top: 200px;
+    left: 100px;
+    opacity: 70%;
+}
+.cloud-11{
+    width: 20%;
+    position: fixed;
+    top: 150px;
+    right: 100px;
+    opacity: 70%;
+}
+
+.about-miyazaki{
+    width: 65%;
+    margin: 0 auto 100px;
+    line-height: 1.75;
+    text-align: center;
+}
+
+
+.poster-howls-moving-castle{
+    width: 300px;
+    border: 5px solid #DEDE6D;
+    float: left;
+    margin-right: 40px;    
+}
+.howls-moving-castle{
+    margin: 20 auto;
+    text-align: left;
+    line-height: 1.75;
+    float: left;
+}
+.poster-my-neighbour-totoro{
+    width: 320px;
+    border: 5px solid #DEDE6D;
+    float: right;
+    margin-left: 40px;    
+}
+.my-neighbour-totoro{
+    margin: 20 auto;
+    text-align: right;
+    line-height: 1.75;
+}
+.poster-spirited-away{
+    width: 300px;
+    border: 5px solid #DEDE6D;
+    float: left;
+    margin-right: 40px;    
+}
+.spirited-away{
+    margin: 20 auto;
+    text-align: left;
+    line-height: 1.75;
+}
+.dot{
+    color: #DEDE6D;
+}
+
+.bottom-container{width: 100%;
+    text-align: center;
+    
+}
+.footer-bg{
+    width: 100%;
+}
+.footer-box{
+    width:100%;
+    height: 60px;
+    background-color:#DEDE6D;
+    padding: 20px 0;
+}
+.wrapper1{
+    width: 1000px;
+    height: 500px;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 50px auto;
+    text-align: center;
+}
+.wrapper2{
+    width: 1000px;
+    height: 500px;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 50px auto;
+    text-align: center;
+}
+.wrapper3{
+    width: 1000px;
+    height: 500px;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 50px auto;
+    text-align: center;
+}
